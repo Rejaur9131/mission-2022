@@ -15,6 +15,7 @@ h2 {
   text-align: center;
 }
 img {
+  margin-top: -50px;
   width: 100%;
 }
 .accent-color {
@@ -29,7 +30,7 @@ img {
 }
 .fifty-percent {
   width: 50%;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 #header-top {
   border-left: 7px solid;
@@ -50,8 +51,9 @@ img {
 .mission-item {
   width: 32%;
   margin-left: 2%;
-  padding: 20px;
+  padding: 50px 20px 20px;
   border-radius: 20px;
+  margin-top: 20px;
 }
 #light-coral {
   background-color: lightcoral;
@@ -66,7 +68,23 @@ img {
   width: 40%;
 }
 .dev-title {
-  text-align-last: left;
+  text-align: left;
+}
+.limitless-development {
+  background-image: url(images/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position: center left;
+}
+.community {
+  background-image: url(images/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position: bottom right;
+}
+.expertise-item {
+  width: 33%;
+  text-align: center;
 }
 .subscription {
   text-align: center;
@@ -75,7 +93,7 @@ img {
   color: white;
   background-image: linear-gradient(45deg, blueviolet, blue);
   width: 100%;
-  padding: 100px 200px;
+  padding: 50px 200px;
   border-radius: 3px;
   box-shadow: 4px 4px 10px darkgray;
 }
@@ -84,8 +102,8 @@ input[type="email"] {
   background-color: rgb(196, 138, 250);
   outline: none;
   padding: 20px;
-  font-size: 16px;
   border: none;
+  font-size: 16px;
   border-radius: 5px;
   border-bottom: 3px solid blueviolet;
 }
@@ -93,9 +111,9 @@ input[type="submit"] {
   color: white;
   background-color: rgb(196, 138, 250);
   outline: none;
-  padding: 20px;
-  font-size: 16px;
+  padding: 18px;
   font-weight: 700;
+  font-size: 16px;
   border-radius: 5px;
   background-image: linear-gradient(45deg, blueviolet, blue);
 }
